@@ -1,6 +1,18 @@
 import { motion } from "./micro-animations";
 import { Award, AlignCenterVertical as Certificate } from "lucide-react";
 
+// Import Award Images
+import MrFashionateImg from "../images/awards/Mr.Fashionate.jpg";
+import BestPerformerImg from "../images/awards/bestperformer.jpg";
+import TeamAwardImg from "../images/awards/Teamaward.jpg";
+import PaperPresentationImg from "../images/awards/paperpresentation.jpg";
+
+// Import Certification Images
+import MicrosoftCertImg from "../images/certificate/microsoft.png";
+import NPTELCertImg from "../images/certificate/nptel.png";
+import JavaCertImg from "../images/certificate/java.png";
+
+
 type Achievement = {
   type: 'award' | 'certification';
   title: string;
@@ -16,10 +28,10 @@ const achievements: Achievement[] = [
   {
     type: 'award',
     title: "Mr.Fashionate'25 Award",
-    issuer: 'Talentia ',
+    issuer: 'Talentia',
     date: 'March 2025',
     description: "Secured Mr.Fashionate'25 award \n- At K.Ramakrihsnan college of Engineering",
-    image: 'src/images/awards/Mr.Fashionate.jpg',
+    image: MrFashionateImg,
   },
   {
     type: 'award',
@@ -27,7 +39,7 @@ const achievements: Achievement[] = [
     issuer: 'KRCE',
     date: 'Febraury 2024',
     description: 'Presented a topic Neuralink\n- And Got first price in the event',
-    image: 'src/images/awards/bestperformer.jpg',
+    image: BestPerformerImg,
   },
   {
     type: 'award',
@@ -35,7 +47,7 @@ const achievements: Achievement[] = [
     issuer: 'KRCE',
     date: 'August 2024',
     description: 'Led a team for a paper presentation and secured first prize',
-    image: 'src/images/awards/Teamaward.jpg',
+    image: TeamAwardImg,
   },
   {
     type: 'award',
@@ -43,9 +55,9 @@ const achievements: Achievement[] = [
     issuer: 'KRCE',
     date: 'October 2024',
     description: 'Presented a paper in department of MBA and secured first prize',
-    image: 'src/images/awards/paperpresentation.jpg',
+    image: PaperPresentationImg,
   },
-  
+
   // Certifications
   {
     type: 'certification',
@@ -53,7 +65,7 @@ const achievements: Achievement[] = [
     issuer: 'Microsoft Azure',
     date: 'March 2025',
     description: 'Certification validating foundational knowledge of Microsoft Azure cloud services and core principles.',
-    image: 'src/images/certificate/microsoft.png',
+    image: MicrosoftCertImg,
     link: '#',
   },
   {
@@ -62,7 +74,7 @@ const achievements: Achievement[] = [
     issuer: 'NPTEL',
     date: 'July 2024',
     description: 'Certification validating foundational knowledge and concepts in cloud computing.',
-    image: 'src/images/certificate/nptel.png',
+    image: NPTELCertImg,
     link: '#',
   },
   {
@@ -71,7 +83,7 @@ const achievements: Achievement[] = [
     issuer: 'Infosys',
     date: 'Aug 2024',
     description: 'Certification validating foundational knowledge and concepts in Java programming.',
-    image: 'src/images/certificate/java.png',
+    image: JavaCertImg,
     link: '#',
   },
 ];
