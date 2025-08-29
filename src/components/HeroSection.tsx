@@ -78,7 +78,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="w-72 h-72 sm:w-80 sm:h-80 rounded-2xl overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
                 <img
-                  src="src/images/profile.jpg"
+                  src="./src/images/profile.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
