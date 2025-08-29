@@ -2,6 +2,12 @@ import { useState } from "react";
 import { motion } from "./micro-animations";
 import { ExternalLink, Github, Sparkles } from "lucide-react";
 
+import StockImage from "../images/projects/stock.png";
+import DonationImage from "../images/projects/donation.png";
+import RobotImage from "../images/projects/robot.png";
+import TaskManagerImage from "../images/projects/taskmanager.png";
+import ShipyardImage from "../images/projects/shipyard.png";
+
 type Project = {
   id: number;
   title: string;
@@ -18,7 +24,7 @@ const projects: Project[] = [
     id: 1,
     title: "Stock Market Investment platform",
     description: "Developed a stock market investment platform using Spring Boot\n- Displays real-time data\n- Secured and user-friendly application",
-    image: "src/images/projects/stock.png",
+    image: StockImage,
     tags: ["Java", "SpringBoot", "Thymeleaf"],
     codeLink: "https://github.com/NaveenKumar71/SafeCryptoStocks",
   },
@@ -26,7 +32,7 @@ const projects: Project[] = [
     id: 2,
     title: "Donation Managemnet Portal",
     description: "A donation management portal that\n- Allows donors to contribute food, clothing, money, and footwear\n- Simple and user-friendly interface for seamless donation experience.",
-    image: "src/images/projects/donation.png",
+    image: DonationImage,
     tags: ["HTML","CSS","JavaScript","php","MySQL"],
     demoLink: "https://donation-portal-project.vercel.app/",
     codeLink: "https://github.com/NaveenKumar71/Donation-portal-project"
@@ -35,7 +41,7 @@ const projects: Project[] = [
     id: 3,
     title: "Web Based Robot Monotoring System ",
     description: "A web-based robot monitoring system that\n- Tracks and analyzes real-time factory data\n- Enhances operational visibility and efficiency",
-    image: "src/images/projects/robot.png",
+    image: RobotImage,
     tags: ["React", "webot simulation", "Bootstrap"],
     demoLink: "https://factoryflowai.vercel.app/",
     codeLink: "https://github.com/NaveenKumar71/FactoryFlow-AI",
@@ -44,7 +50,7 @@ const projects: Project[] = [
     id: 4,
     title: "Task Manager",
     description: "A simple Task Tracker web app made with React.\n - Uses simple storage to get, add, delete or update tasks.",
-    image: "src/images/projects/taskmanager.png",
+    image: TaskManagerImage,
     tags: ["React", "Javascript","CSS"],
     demoLink: "https://task-management-app-tawny-seven.vercel.app/",
     codeLink: "https://github.com/NaveenKumar71/Task-Management-App",
@@ -53,7 +59,7 @@ const projects: Project[] = [
     id: 5,
     title: "Shipyard website",
     description: "A shipyard website Showcases shipyard services, company information, and contact details with a clean and modern layout",
-    image: "src/images/projects/shipyard.png",
+    image: ShipyardImage,
     tags: ["HTML", "CSS", "JavaScript"],
     demoLink: "https://shipyard-website-alpha.vercel.app/",
     codeLink: "https://github.com/NaveenKumar71/Shipyard-website",
