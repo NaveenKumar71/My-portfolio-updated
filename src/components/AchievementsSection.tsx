@@ -6,6 +6,7 @@ import MrFashionateImg from "../images/awards/Mr.Fashionate.jpg";
 import BestPerformerImg from "../images/awards/bestperformer.jpg";
 import TeamAwardImg from "../images/awards/Teamaward.jpg";
 import PaperPresentationImg from "../images/awards/paperpresentation.jpg";
+import BodyBuildingImg from "../images/awards/bodybuilding.jpg";
 
 // Import Certification Images
 import MicrosoftCertImg from "../images/certificate/microsoft.png";
@@ -56,6 +57,14 @@ const achievements: Achievement[] = [
     date: 'October 2024',
     description: 'Presented a paper in department of MBA and secured first prize',
     image: PaperPresentationImg,
+  },
+  {
+    type: 'award',
+    title: 'Body Building Champion',
+    issuer: 'Mr.Real Strong Man',
+    date: 'October 2023',
+    description: 'Competed and won the Body Building Champion in the Mr.Real Strong Man',
+    image: BodyBuildingImg,
   },
 
   // Certifications
