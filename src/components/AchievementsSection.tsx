@@ -7,6 +7,7 @@ import BestPerformerImg from "../images/awards/bestperformer.jpg";
 import TeamAwardImg from "../images/awards/Teamaward.jpg";
 import PaperPresentationImg from "../images/awards/paperpresentation.jpg";
 import BodyBuildingImg from "../images/awards/bodybuilding.jpg";
+import MrFashionate2Img from "../images/awards/Mr.Fashionate2.jpg";
 
 // Import Certification Images
 import MicrosoftCertImg from "../images/certificate/microsoft.png";
@@ -65,6 +66,14 @@ const achievements: Achievement[] = [
     date: 'October 2023',
     description: 'Competed and won the Body Building Champion in the Mr.Real Strong Man',
     image: BodyBuildingImg,
+  },
+  {
+    type: 'award',
+    title: 'Mr.Fashionate\'25 Award [second time]',
+    issuer: 'KRCE',
+    date: 'November 2025',
+    description: "Secured Mr.Fashionate'25 award \n- on Mens day celebration",
+    image: MrFashionate2Img,
   },
 
   // Certifications
